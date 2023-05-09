@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.6rem;
+  font-weight: 400;
+  background-color: #d6d2da;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin-top: 10rem;
+}
+
+.calculator {
+  min-width: 320px;
+  width: 35rem;
+  background-color: #0b090a;
+  border-radius: 1rem;
+}
+
+.calculator .screen {
+  text-align: right;
+  padding: 3rem;
+  color: #f5f3f4;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.calculator .keys-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.calculator .keys .key {
+  font-family: inherit;
+  width: 25%;
+  padding: 3rem;
+  font-size: 2rem;
+  border: 1px solid #0b090a;
+  border-radius: 0.5rem;
+  background-color: #dee2e6;
+  cursor: pointer;
+}
+
+.calculator .keys .key:hover {
+  background-color: #ced4da;
+}
+
+.calculator .keys .operator {
+  background-color: #b76b23;
+}
+
+.calculator .keys .operator:hover {
+  background-color: #e87104;
+}
+
+.calculator .keys .gray {
+  background-color: #adb5bd;
+}
+
+.calculator .keys .gray:hover {
+  background-color: #6c757d;
+}
+
+.calculator .keys .double {
+  width: 50%;
+}
